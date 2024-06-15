@@ -77,9 +77,38 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "group": "Connections",
+          "pages": [
+            "api-reference/connections/sync-status",
+            "api-reference/connections/sync",
+            "api-reference/connections/update-private-key",
+            "api-reference/connections/list-all"
+          ]
+        },
+        {
+          "group": "Monitors",
+          "pages": [
+            "api-reference/monitors/create-monitor",
+            "api-reference/monitors/get-monitor",
+            "api-reference/monitors/update-monitor",
+            "api-reference/monitors/status-deprecated",
+            "api-reference/monitors/evaluation-history",
+            "api-reference/monitors/run",
+            "api-reference/monitors/list-for-connection",
+            "api-reference/monitors/ingest-datapoint",
+            "api-reference/monitors/import-historic-data",
+            "api-reference/monitors/get-for-database-entity",
+            "api-reference/monitors/status"
+          ]
+        },
+        {
+          "group": "Tags",
+          "pages": [
+            "api-reference/tags/batch-tag-tables",
+            "api-reference/tags/batch-tag-monitors"
+          ]
+        }
       ]
     }
   ],
