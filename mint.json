@@ -25,6 +25,7 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "openapi": "https://dev.api.metaplane.dev/docs/575915/openapi.json",
   "tabs": [
     {
       "name": "API Reference",
